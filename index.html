@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern E-Commerce Site</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="navbar">
+            <div class="brand">
+                <img src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png" alt="Cart" class="cart-logo">
+                <div>
+                    <span class="brand-name">SudhanshuMart</span>
+                    <div class="brand-tagline">Curated Picks</div>
+                </div>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="category-filter" style="max-width:1200px;margin:2rem auto 0 auto;display:flex;justify-content:flex-end;">
+            <select id="categorySelect">
+                <option value="all">All Categories</option>
+                <option value="electronics">Electronics</option>
+                <option value="home">Home</option>
+                <option value="apparel">Apparel</option>
+                <option value="luggage">Luggage</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </div>
+        <section id="product-list">
+            <!-- Product cards will be dynamically loaded here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 SudhanshuMart. All rights reserved.</p>
+    </footer>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
